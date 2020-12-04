@@ -162,6 +162,7 @@ ul {
 .seasons .seasons__inner {
   display: -ms-grid;
   display: grid;
+  padding-top: 50px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 100px 75px;

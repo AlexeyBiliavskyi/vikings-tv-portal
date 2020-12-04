@@ -140,6 +140,7 @@ ul {
 .seasons {
   .seasons__inner {
     display: grid;
+    padding-top: 50px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px 75px;
     counter-reset: counterSeasons;
