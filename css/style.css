@@ -279,4 +279,89 @@ ul {
   padding: 14px 0 15px;
   text-align: center;
 }
+
+/* start season 1 */
+.page-header {
+  background-image: url("../images/season-1-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.page-header .menu {
+  padding: 50px 0 58px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#111213), color-stop(43.62%, #111213), color-stop(86.33%, rgba(32, 31, 33, 0)));
+  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+}
+
+.page-header .menu .page-logo {
+  position: absolute;
+  left: 0;
+}
+
+.page-header .menu .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-header .menu .menu__list .menu__list-item {
+  padding: 0 13px;
+}
+
+.page-header .menu .menu__list .menu__list-item .menu__list-link {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.page-header .menu .menu__list .menu__list-item .menu__list-link--active {
+  color: #85ccdc;
+  text-decoration: underline;
+}
+
+.page-header .season-info {
+  position: absolute;
+  max-width: 1385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 44px 47px 64px 35px;
+  background-color: #0e0e0e;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.page-header .season-info .season-info__num {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 56px;
+  text-align: center;
+  margin-right: 51px;
+}
+
+.page-header .season-info .season-info__num span {
+  display: block;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.page-header .season-info .season-info__text p {
+  margin-bottom: 15px;
+}
+
+.menu__container {
+  max-width: 1385px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* end season 1 */
 /*# sourceMappingURL=style.css.map */
